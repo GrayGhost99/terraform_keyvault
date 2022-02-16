@@ -1,7 +1,7 @@
 
 
 #resource group variables
-RG_name  = "terraform_build2"
+RG_name  = "MichaelMoore-RG"
 location = "eastus"
 
 #Networking Variables
@@ -44,5 +44,5 @@ security_rule_source_address_prefix      = "*"
 security_rule_destination_address_prefix = "*"
 
 #Vault Variables
-secrets_rg_name   = "secrets"
-secret_vault_name = "bjgsecrets"
+secrets_rg_name   = "MichaelMoore-RG"
+secret_vault_name = "moorevault"
